@@ -7,10 +7,8 @@ const urbanist = Urbanist({
 });
 
 export const metadata = {
-  title: {
-    template: "%s | Darukbyte - Crafting innovative digital experiences",
-    default: "Darukbyte - Crafting innovative digital experiences",
-  },
+  title:
+    "Darukbyte - Frontend Developer crafting innovative digital experiences",
   description:
     "Pushing creative and coding boundaries, one web experience at a time. Based in Bogotá, Colombia.",
   keywords: [
@@ -39,7 +37,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>{children}</body>
+      <body className={urbanist.className}>
+      {children}
+      </body>
     </html>
   );
 }

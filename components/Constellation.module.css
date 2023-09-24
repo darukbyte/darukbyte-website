@@ -1,0 +1,39 @@
+.size {
+  height: 220px;
+  width: 176px;
+}
+
+@media screen and (prefers-reduced-motion: no-preference){
+    .radiance {
+        animation: radiance cubic-bezier(0.64, 0.31, 0.83, 0.95) 3400ms infinite;
+      }
+      .way {
+        animation: way linear 5000ms infinite;
+      }
+      .delay {
+        animation-delay: 1600ms;
+      }
+      .delay_two {
+        animation-delay: 2000ms;
+      }
+      
+      @keyframes way {
+        from {
+          height: 0;
+        }
+        90%{
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      
+      @keyframes radiance { 
+      to {
+        r: 15;
+        opacity: 0
+      }
+    }
+    
+    }

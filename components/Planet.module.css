@@ -1,0 +1,32 @@
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  
+    .planet_rotation {
+        animation: rotation cubic-bezier(0.64, 0.31, 0.83, 0.95) 34s infinite alternate-reverse;
+        transform-origin: bottom;
+      }
+      
+      .planet_inclination {
+        border: 1.8px solid #161F38;
+        border-radius: 50%;
+        transition: transform 3s ease-out;
+        transform: rotate(0);
+        width: 100px;
+        height: 100px;
+      }
+
+        .planet_inclination:hover {
+          transform: rotate(90deg);
+        }
+      
+      @keyframes rotation {
+        from {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+    
+    }
