@@ -3,12 +3,9 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import styles from "./Navigation.module.css";
-import { Gotu } from "@next/font/google";
+import localFont from "next/font/local";
 
-const gotu = Gotu({
-  subsets: ["latin"],
-  weight: "400",
-});
+const gotu = localFont({ src: "../font/Gotu-Regular.ttf" });
 
 export default function Navigation() {
   return (
@@ -70,7 +67,7 @@ export default function Navigation() {
               className={styles.header__nav_bottom_container_links}
               href="/works"
             >
-              My works
+              My work
             </Link>
           </li>
         </ul>

@@ -1,20 +1,21 @@
-.size {
+@media screen and (prefers-reduced-motion: no-preference){
+  
+  .size {
   height: 220px;
   width: 176px;
+  animation: rotate cubic-bezier(0.64, 0.31, 0.83, 0.95) 90s infinite alternate-reverse;
 }
-
-@media screen and (prefers-reduced-motion: no-preference){
     .radiance {
-        animation: radiance cubic-bezier(0.64, 0.31, 0.83, 0.95) 3400ms infinite;
+        animation: radiance cubic-bezier(0.64, 0.31, 0.83, 0.95) 8200ms infinite;
       }
       .way {
-        animation: way linear 5000ms infinite;
+        animation: way linear 10000ms infinite;
       }
       .delay {
-        animation-delay: 1600ms;
+        animation-delay: 1800ms;
       }
       .delay_two {
-        animation-delay: 2000ms;
+        animation-delay: 3000ms;
       }
       
       @keyframes way {
@@ -33,6 +34,14 @@
       to {
         r: 15;
         opacity: 0
+      }
+    }
+    @keyframes rotate { 
+      from {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(25deg);
       }
     }
     

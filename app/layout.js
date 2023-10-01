@@ -1,5 +1,7 @@
 import "./globals.css";
 import { Urbanist } from "next/font/google";
+import Navigation from "@/components/Navigation";
+import StarrySky from "@/components/StarrySky";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -8,7 +10,7 @@ const urbanist = Urbanist({
 
 export const metadata = {
   title:
-    "Darukbyte - Frontend Developer crafting innovative digital experiences",
+    "Darukbyte - Freelance Frontend Developer crafting innovative digital experiences",
   description:
     "Pushing creative and coding boundaries, one web experience at a time. Based in Bogotá, Colombia.",
   keywords: [
@@ -38,7 +40,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={urbanist.className}>
-      {children}
+        <Navigation />
+        <StarrySky />
+        {children}
       </body>
     </html>
   );

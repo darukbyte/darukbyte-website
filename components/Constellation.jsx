@@ -256,6 +256,13 @@ export default function Constellation() {
         transform="rotate(-11.6445 173.101 30.9904)"
       />
       <circle
+        className={`${styles.radiance} ${styles.delay}`}
+        cx="179.156"
+        cy="60.3731"
+        r="4"
+        transform="rotate(-11.6445 179.156 60.3731)"
+      />
+      <circle
         cx="179.156"
         cy="60.3731"
         r="4"
@@ -263,14 +270,6 @@ export default function Constellation() {
       />
 
       <circle
-        cx="189.129"
-        cy="88.9483"
-        r="4"
-        transform="rotate(-11.6445 189.129 88.9483)"
-      />
-
-      <circle
-        className={`${styles.radiance} ${styles.delay}`}
         cx="189.129"
         cy="88.9483"
         r="4"
