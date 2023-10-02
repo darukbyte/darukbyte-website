@@ -16,13 +16,15 @@ export default function Home() {
       <main className={styles.box}>
         <article className={styles.intro}>
           <p className={styles.intro__first}>
-            Freelance Frontend Developer <br /> with a creative mindset.
+            Explore the journey of a <br /> Frontend Developer
           </p>
           <article className={`${styles.intro__first_box} ${gotu.className}`}>
-            <h1 className={styles.intro__first_box_h}>Breaking</h1>
-            <h2 className={styles.intro__first_box_h}>Bounderies</h2>
+            <h1 className={styles.intro__first_box_h}>Wrecking</h1>
+            <h2 className={styles.intro__first_box_h}>Boundaries</h2>
           </article>
-          <p className={styles.intro__first}>with Code and Design</p>
+          <p className={styles.intro__first}>
+            with code, design, creativity and passion
+          </p>
         </article>
       </main>
       <div className={styles.planet_location}>

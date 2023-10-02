@@ -7,9 +7,5 @@ export const metadata = {
 };
 
 export default function Works() {
-  return (
-    <main className={styles.box}>
-      <SocialMedia />
-    </main>
-  );
+  return <main className={styles.box}></main>;
 }

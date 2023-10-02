@@ -42,8 +42,8 @@
         align-items: center;
     }
     .container__socialLink_image {
-        width: 34px;
-        height: 34px;
+        width: 32px;
+        height: 32px;
     }
     .container__socialLink_text{
         text-orientation: unset;

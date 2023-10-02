@@ -28,6 +28,13 @@
           transform: rotate(360deg);
         }
       }
-      
+
+      @media (min-width: 900px) {
+        .planet_inclination {
+          width: 150px;
+          height: 150px;
+          border: 2.4px solid #161F38;
+        }
+      }
     
     }

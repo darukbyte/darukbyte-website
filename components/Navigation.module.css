@@ -40,17 +40,6 @@
         background-color: var(--principal-color);
         color: var(--white-color);
 }
-.header__nav_top_socialButton {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    border: none;
-    width: 42px;
-    height: 42px;
-    background-color: unset;
-    transition: all 400ms ease-in;
-}
 .header__nav_bottom_container_links{
     text-decoration: none;
     color: var(--black-color);
@@ -60,5 +49,20 @@
 .header__nav_bottom_container_links:hover {
     color: var(--principal-color);
 }
+@media (min-width: 900px) {
+    .header nav  {
+        padding: 20px 40px;
+    }
+    .none{
+        display: flex;
+    }
+    .flex{
+        display: none;
+    }
+    .header__nav_top_social {
+        position: absolute;
+        top: calc(50dvh - 146px);
+        right: 40px;
+    }
 
-
+}

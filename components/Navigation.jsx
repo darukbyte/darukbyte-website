@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import styles from "./Navigation.module.css";
 import localFont from "next/font/local";
+import SocialMedia from "@/components/SocialMedia";
 
 const gotu = localFont({ src: "../font/Gotu-Regular.ttf" });
 
@@ -31,16 +32,8 @@ export default function Navigation() {
               say hi.
             </a>
           </li>
-          <li className={styles.header__nav_top_socialButton}>
-            <button className={styles.header__nav_top_socialButton}>
-              <figure className={styles.header__nav_top_socialButton}>
-                <img
-                  className={styles.header__nav_top_socialLinks}
-                  src="/assets/socialLinks.svg"
-                  alt="social media links"
-                />
-              </figure>
-            </button>
+          <li className={styles.header__nav_top_social}>
+            <SocialMedia />
           </li>
         </ul>
       </nav>

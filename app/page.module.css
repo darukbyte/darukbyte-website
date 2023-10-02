@@ -6,7 +6,6 @@
     align-items: center;
 }
 .intro {
-    width: 260px;
     height: auto;
     max-height: 300px;
     display: flex;
@@ -43,9 +42,29 @@
     right: 15%;
 }
 .constellation_location {
+    width:fit-content;
+    height: fit-content;
     position: absolute;
     z-index: 0;
     top: 1.6%;
     left: 25%;
     transform: rotate(35deg);
+}
+@media (min-width: 900px) {
+    .intro__first {
+        font-size: 1.8rem;
+    }
+    .intro__first_box_h {
+        line-height: 9rem;
+        font-size: 9rem;
+    }
+    .planet_location {
+        top: 12%;
+    }
+    .constellation_location {
+        transform: rotate(330deg);
+        bottom: 20%;
+        top: unset;
+        left: 1%;
+    }
 }
