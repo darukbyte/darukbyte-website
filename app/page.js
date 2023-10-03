@@ -23,7 +23,7 @@ export default function Home() {
             <h2 className={styles.intro__first_box_h}>Boundaries</h2>
           </article>
           <p className={styles.intro__first}>
-            with code, design, creativity and passion
+            With code, design, creativity, and passion.
           </p>
         </article>
       </main>

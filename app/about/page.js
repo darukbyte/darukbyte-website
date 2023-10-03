@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Who I am? - Darukbyte",
+  title: "Who exactly am I? - Darukbyte",
 };
 
 export default function About() {

@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "My Works - Darukbyte",
+  title: "Works crafted by me - Darukbyte",
 };
 
 export default function Works() {
