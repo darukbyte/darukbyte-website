@@ -2,13 +2,9 @@
 import React from "react";
 import Planet from "@/components/Planet";
 import Constellation from "@/components/Constellation";
-import { Gotu } from "next/font/google";
 import styles from "./page.module.css";
-
-const gotu = Gotu({
-  subsets: ["latin"],
-  weight: "400",
-});
+import localFont from "next/font/local";
+const gotu = localFont({ src: "../font/Gotu-Regular.ttf" });
 
 export default function Home() {
   return (
@@ -16,7 +12,7 @@ export default function Home() {
       <main className={styles.box}>
         <article className={styles.intro}>
           <p className={styles.intro__first}>
-            Explore the journey of a <br /> Frontend Developer
+            Explore the journey of a <br /> Designer and Developer
           </p>
           <article className={`${styles.intro__first_box} ${gotu.className}`}>
             <h1 className={styles.intro__first_box_h}>Wrecking</h1>

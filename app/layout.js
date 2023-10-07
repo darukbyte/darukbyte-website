@@ -9,10 +9,9 @@ const urbanist = Urbanist({
 });
 
 export const metadata = {
-  title:
-    "Darukbyte - Freelance Frontend Developer crafting innovative digital experiences",
+  title: "Freelance Frontend Developer crafting innovative digital experiences",
   description:
-    "Pushing creative and coding boundaries, one web experience at a time. Based in Bogotá, Colombia.",
+    "Exploring beyond the boundaries of creativity and code, one web experience at a time. Based in Bogotá, Colombia.",
   keywords: [
     "Darukbyte",
     "Junior Carrillo",
@@ -33,6 +32,7 @@ export const metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+    metadataBase: new URL("https://darukbyte-website.vercel.app/"),
   },
 };
 
