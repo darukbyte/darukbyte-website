@@ -11,12 +11,23 @@ const urbanist = Urbanist({
 export const metadata = {
   title: "Freelance Frontend Developer crafting innovative digital experiences",
   description:
-    "Exploring beyond the boundaries of creativity and code, one web experience at a time. Based in Bogotá, Colombia.",
+    "Exploring beyond the boundaries of creativity and code, one web experience at a time. Based in Venezuela.",
   keywords: [
     "Darukbyte",
     "Junior Carrillo",
     "Frontend Developer",
     "Design",
+    "Motion",
+    "Animation",
+    "GSAP",
+    "figma",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Next",
+    "Programming",
+    "Freelance",
     "Personal site",
   ],
   themeColor: "#408950",
@@ -41,7 +52,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={urbanist.className}>
         <Navigation />
-        <StarrySky />
         {children}
       </body>
     </html>

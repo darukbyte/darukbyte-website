@@ -11,8 +11,8 @@
         border-radius: 50%;
         transition: transform 8s ease-out;
         transform: rotate(0);
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         background-color: var(--white-color);
       }
 

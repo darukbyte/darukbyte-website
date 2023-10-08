@@ -4,11 +4,13 @@ import Planet from "@/components/Planet";
 import Constellation from "@/components/Constellation";
 import styles from "./page.module.css";
 import localFont from "next/font/local";
+import StarrySky from "@/components/StarrySky";
 const gotu = localFont({ src: "../font/Gotu-Regular.ttf" });
 
 export default function Home() {
   return (
     <>
+      <StarrySky />
       <main className={styles.box}>
         <article className={styles.intro}>
           <p className={styles.intro__first}>

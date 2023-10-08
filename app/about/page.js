@@ -2,6 +2,9 @@ import Constellation from "@/components/Constellation";
 import Planet from "@/components/Planet";
 import Image from "next/image";
 import React from "react";
+import styles from "./page.module.css";
+import localFont from "next/font/local";
+const gotu = localFont({ src: "../../font/Gotu-Regular.ttf" });
 
 export const metadata = {
   title: "Who exactly am I? - Darukbyte",
@@ -9,93 +12,127 @@ export const metadata = {
 
 export default function About() {
   return (
-    <main>
-      <section>
-        <h3>
-          Junior <span>Carrillo</span>{" "}
-        </h3>
-        <Image
-          src="/assets/DarukbytePortraitIllustration.jpg"
-          width={300}
-          height={373}
-          alt="Midjourney illustration of my self"
-        />
-        <p>
-          I&apos;m a designer and developer on the odyssey to unveil the art of
-          code and creativity, discovering new ways while exploring beyond the
-          horizons of this endless universe called the web.
-        </p>
-        <article>
-          <h6>Scroll to start the journey</h6>
-          <div></div>
+    <main className={styles.main}>
+      <section className={styles.main__intro}>
+        <article className={styles.main__intro_box}>
+          <h3 className={`${styles.main__intro_name} ${gotu.className}`}>
+            Junior <span className={styles.main__intro_nameTwo}>Carrillo</span>{" "}
+          </h3>
+          <Image
+            className={styles.main__intro_image}
+            src="/assets/DarukbytePortraitIllustration.jpg"
+            width={300}
+            height={373}
+            alt="Midjourney illustration of my self"
+          />
+          <p className={styles.main__intro_presentation}>
+            I&apos;m a designer and developer on the odyssey to unveil the art
+            of code and creativity, discovering new ways while exploring beyond
+            the horizons of this endless universe called the web.
+          </p>
+          <article className={`${styles.main__intro_scroll} ${gotu.className}`}>
+            <h6 className={styles.main__intro_scroll_title}>
+              Scroll to start the journey
+            </h6>
+            <div className={`${styles.main__intro_scroll_bar}`}></div>
+          </article>
         </article>
       </section>
 
-      <section>
-        <h3>Going beyond the horizon</h3>
-        <article>
-          <h5>Exploring new frontiers</h5>
-          <p>
+      <section className={styles.main__about}>
+        <h3 className={`${styles.main__about_title} ${gotu.className}`}>
+          Going beyond the{" "}
+          <span className={styles.main__about_titleTwo}> horizon </span>
+        </h3>
+
+        <article className={styles.main__paraghrap}>
+          <h5 className={`${styles.main__paraghrap_title} ${gotu.className}`}>
+            Exploring new frontiers
+          </h5>
+          <p className={styles.main__paraghrap_content}>
             Wrecking boundaries and surpassing the frontiers of regular
-            websites. I infuse creativity to make websites look better, move
+            websites. I put all my creativity to make websites look better, move
             smoother, and feel more alive. I&apos;m always looking to expand my
             frontiers and discover new horizons.
           </p>
+          <article
+            className={`${styles.main__about_constellation} ${styles.display__view}`}
+          >
+            <Constellation />
+          </article>
         </article>
-        <article>
+
+        <article
+          className={`${styles.main__about_constellation} ${styles.display__view_two}`}
+        >
           <Constellation />
         </article>
-        <article>
-          <h6>
+
+        <article className={styles.main__about_points}>
+          <h6 className={styles.main__about_points_title}>
             Unique web experiences crafted <br /> with creativity.
           </h6>
-          <ul>
-            <li>strong concepts</li>
+
+          <ul className={styles.main__about_points_list}>
+            <li>Strong concepts</li>
             <li>UI Design</li>
             <li>Iterative Development</li>
             <li>Motion for the web</li>
             <li>SVG assets creation</li>
           </ul>
         </article>
-        <article>
+
+        <article className={styles.main__about_planet}>
           <Planet />
         </article>
       </section>
 
-      <section>
-        <article>
-          <h5>
-            Ready to <br /> discover new <br /> <span>web experiences</span>
-          </h5>
-        </article>
+      <section className={styles.main__exploration}>
+        <h5 className={`${styles.main__exploration_title} ${gotu.className}`}>
+          Ready to <br /> discover new <br /> <span>web experiences?</span>
+        </h5>
 
-        <article>
+        <article
+          className={`${styles.main__exploration_cta} ${gotu.className}`}
+        >
           <a href="#">Let&apos;s began</a>
         </article>
       </section>
 
-      <section>
-        <h5>
-          More than <br /> creativity
+      <section className={styles.main__details}>
+        <h5
+          className={`${styles.main__details_head} ${styles.details__block_one} ${gotu.className}`}
+        >
+          More than <br /> <span> creativity </span>
         </h5>
-        <article>
-          <h6>
-            Rather provide solutions, <br />
-            than make you feel good
-          </h6>
-          <p>
+
+        <article
+          className={`${styles.main__paraghrap} ${styles.details__block_two}`}
+        >
+          <h5 className={`${styles.main__paraghrap_title} ${gotu.className}`}>
+            Rather provide solutions, than make you feel good
+          </h5>
+          <p className={styles.main__paraghrap_content}>
             Exploring new ideas doesn&apos;t always mean creating new ones. I
-            monitor trends and keep a eye on the best things that are made and
+            monitor trends and keep a eye on the best things that are make and
             develop in my field of expertise. This way, I can provide creative
             solutions and offer clear and honest feedback.
           </p>
         </article>
-        <h5>
-          My own <br /> curiosity
+
+        <h5
+          className={`${styles.main__details_head} ${styles.details__block_tree} ${gotu.className}`}
+        >
+          My own <br /> <span>curiosity</span>
         </h5>
-        <article>
-          <h5>Learning new things along my journeys.</h5>
-          <p>
+
+        <article
+          className={`${styles.main__paraghrap} ${styles.details__block_four}`}
+        >
+          <h5 className={`${styles.main__paraghrap_title} ${gotu.className}`}>
+            Learning new things <br /> along my journeys.
+          </h5>
+          <p className={styles.main__paraghrap_content}>
             I&apos;m a self-taught adventure with a deep passion for learning. I
             spent every day acquiring new knowledge, this help me to break
             boundaries and discover new ways to explore the vast universe beyond
@@ -103,12 +140,11 @@ export default function About() {
           </p>
         </article>
 
-        <article>
+        <article className={styles.main__logo}>
           <svg
             viewBox="0 0 180 240"
-            width=""
-            height=""
             fill="none"
+            className={styles.main__logo_center}
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -130,25 +166,33 @@ export default function About() {
           </svg>
         </article>
 
-        <article>
-          <h6>
+        <article
+          className={`${styles.main__more_info} ${styles.info__block_one}`}
+        >
+          <h6 className={`${styles.main__more_text}  ${gotu.className}`}>
             Are you ready to embark
             <br /> on a <span>new journey?</span>
           </h6>
-          <ul>
+          <ul className={styles.main__more_list}>
             <li>
               <a href="#">Let&apos;s chat, me@darukbyte.com</a>
             </li>
             <li>
               <a href="#">Let&apos;s talk, Book a Meet</a>
             </li>
-            <li>Based in Bogotá, Colombia</li>
+            <li>Based in Venezuela</li>
           </ul>
         </article>
 
-        <article>
-          <h6>Credits</h6>
-          <ul>
+        <article
+          className={`${styles.main__more_info} ${styles.info__block_two}`}
+        >
+          <h6
+            className={`${styles.main__more_text} ${styles.info__block_text} ${gotu.className}`}
+          >
+            Credits
+          </h6>
+          <ul className={`${styles.main__more_list} `}>
             <li>
               Design, Motion and Development: <br />
               Junior Carrillo

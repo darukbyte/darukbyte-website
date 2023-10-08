@@ -1,0 +1,233 @@
+.main {
+    padding: 20px 16px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+}
+.main__intro {
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main__intro_box {
+    display: grid;
+    gap: 20px;
+}
+.main__intro_name{
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+}
+.main__intro_nameTwo {
+    color: var(--principal-color);
+}
+.main__intro_image {
+    justify-self: end;
+    object-fit: cover;
+    min-width: 217px;
+    max-width:340px;
+    min-height: 270px;
+    max-height: 423px;
+}
+.main__intro_presentation {
+    font-size: 1.4rem;
+    line-height: 150%;
+    min-width: 300px;
+    max-width: 340px;
+}
+.main__intro_scroll {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-self: end;
+}
+.main__intro_scroll_title {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+.main__intro_scroll_bar {
+    width: 4px;
+    height: 40px;
+    background-color: var(--principal-color);
+}
+
+.main__about {
+    display: grid;
+    gap: 40px;
+}
+.main__about_title {
+    font-size: 3.2rem;
+    line-height: 150%;
+    width: 230px;
+    text-align: right;
+    justify-self: end;
+}
+.main__about_titleTwo {
+    color: var(--principal-color);
+}
+.main__paraghrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 280px;
+    position: relative;
+}
+.main__paraghrap_title {
+    font-size: 2rem;
+    line-height: 150%;
+}
+.main__paraghrap_content {
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+.main__about_constellation {
+    margin-right: 70px;
+    width: auto;
+    height: auto;
+    transform: rotate(26deg);
+    gap: 20px;
+}
+.display__view {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    right: -22%;
+}
+.display__view_two {
+    display: none;
+}
+.main__about_points {
+    margin-top: 120px;
+    margin-left: 14px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main__about_points_title {
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-weight: 800;
+}
+.main__about_points_list {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+}
+.main__about_points_list > li {
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+.main__about_planet {
+    justify-self: end;
+    transform: translate(-40px, -65px);
+    z-index: -1;
+}
+.main__exploration {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: -80px;
+}
+.main__exploration_title {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.main__exploration_title > span {
+    color: var(--principal-color);
+}
+.main__exploration_cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+}
+.main__exploration_cta > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    background-color: var(--principal-color);
+    height: 44px;
+    width: 131px;
+}
+.main__details {
+    display: grid;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+.main__details_head {
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+}
+.main__details_head > span {
+    color: var(--principal-color);
+}
+.details__block_one {
+    margin-left: 20px;
+}
+.details__block_two {
+    justify-self: end;
+}
+.details__block_tree{
+    margin-right: 40px;
+    text-align: end;
+}
+.main__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+}
+.main__logo_center{
+    width: 90px;
+    height: 120px;
+}
+.main__more_info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.main__more_text {
+    font-size: 2rem;
+    line-height: 150%;
+}
+.main__more_text > span {
+    color: var(--principal-color);
+}
+.main__more_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.main__more_list > li {
+    font-size: 1.8rem;
+    line-height: 150%;
+}
+.main__more_list > li > a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+.main__more_list > li > a:hover {
+    text-decoration: underline;
+    color: var(--principal-color);
+}
+.info__block_two {
+    justify-self: end;
+    width: 310px;
+}
+.info__block_text {
+    text-align: right;
+}
+.info__block_two > ul > li{
+    text-align: right;
+}
+
