@@ -12,6 +12,8 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin-bottom: 280px;
 }
 .main__intro_box {
     display: grid;
@@ -33,24 +35,30 @@
     max-height: 423px;
 }
 .main__intro_presentation {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 150%;
     min-width: 300px;
     max-width: 340px;
 }
 .main__intro_scroll {
     display: flex;
-    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-self: end;
+    gap: 8px;
+    position: absolute;
+    right: calc(50% - 16px);
+    bottom: -380px;
 }
 .main__intro_scroll_title {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
 }
 .main__intro_scroll_bar {
     width: 4px;
-    height: 40px;
+    height: 100px;
     background-color: var(--principal-color);
 }
 
@@ -64,6 +72,7 @@
     width: 230px;
     text-align: right;
     justify-self: end;
+    margin-right: 20px;
 }
 .main__about_titleTwo {
     color: var(--principal-color);
@@ -80,11 +89,11 @@
     line-height: 150%;
 }
 .main__paraghrap_content {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 150%;
 }
 .main__about_constellation {
-    margin-right: 70px;
+    margin-right: 90px;
     width: auto;
     height: auto;
     transform: rotate(26deg);
@@ -185,6 +194,8 @@
     align-items: center;
     width: 300px;
     height: 250px;
+    align-self: center;
+    justify-self: center;
 }
 .main__logo_center{
     width: 90px;
@@ -206,10 +217,10 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 .main__more_list > li {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 150%;
 }
 .main__more_list > li > a {

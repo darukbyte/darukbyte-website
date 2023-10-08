@@ -9,6 +9,7 @@
     height: 80px;
     position: fixed;
     padding: 20px 16px;
+    z-index: 1;
 }
 .header nav ul {
     list-style: none;

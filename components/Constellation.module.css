@@ -1,8 +1,8 @@
 @media screen and (prefers-reduced-motion: no-preference){
   
   .size {
-  height: 220px;
-  width: 176px;
+  height: 250px;
+  width: 200px;
   animation: rotate cubic-bezier(0.64, 0.31, 0.83, 0.95) 60s infinite alternate-reverse;
 }
     .radiance {

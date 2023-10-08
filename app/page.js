@@ -14,14 +14,14 @@ export default function Home() {
       <main className={styles.box}>
         <article className={styles.intro}>
           <p className={styles.intro__first}>
-            Explore the journey of a <br /> Designer and Developer
+            Explore the journey of a <br /> Developer and Designer
           </p>
           <article className={`${styles.intro__first_box} ${gotu.className}`}>
             <h1 className={styles.intro__first_box_h}>Wrecking</h1>
             <h2 className={styles.intro__first_box_h}>Boundaries</h2>
           </article>
           <p className={styles.intro__first}>
-            With code, design, creativity, and passion.
+            with code, design, creativity, and passion.
           </p>
         </article>
       </main>

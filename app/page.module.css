@@ -44,10 +44,10 @@
 .constellation_location {
     width:fit-content;
     height: fit-content;
-    position: absolute;
+    position: fixed;
     z-index: 0;
     top: 1.6%;
-    left: 25%;
+    left: 20%;
     transform: rotate(35deg);
 }
 @media (min-width: 900px) {

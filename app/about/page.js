@@ -194,7 +194,7 @@ export default function About() {
           </h6>
           <ul className={`${styles.main__more_list} `}>
             <li>
-              Design, Motion and Development: <br />
+              Design, Motion and Development by: <br />
               Junior Carrillo
             </li>
             <li>
