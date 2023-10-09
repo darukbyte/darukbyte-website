@@ -39,51 +39,55 @@ export default function About() {
         </article>
       </section>
 
-      <section className={styles.main__about}>
-        <h3 className={`${styles.main__about_title} ${gotu.className}`}>
-          Going beyond the{" "}
-          <span className={styles.main__about_titleTwo}> horizon </span>
-        </h3>
+      <section className={styles.main__box}>
+        <article className={styles.main__about}>
+          <h3 className={`${styles.main__about_title} ${gotu.className}`}>
+            Going beyond the{" "}
+            <span className={styles.main__about_titleTwo}> horizon </span>
+          </h3>
 
-        <article className={styles.main__paraghrap}>
-          <h5 className={`${styles.main__paraghrap_title} ${gotu.className}`}>
-            Exploring new frontiers
-          </h5>
-          <p className={styles.main__paraghrap_content}>
-            Wrecking boundaries and surpassing the frontiers of regular
-            websites. I put all my creativity to make websites look better, move
-            smoother, and feel more alive. I&apos;m always looking to expand my
-            frontiers and discover new horizons.
-          </p>
           <article
-            className={`${styles.main__about_constellation} ${styles.display__view}`}
+            className={`${styles.main__paraghrap} ${styles.main__about_box}`}
+          >
+            <h5 className={`${styles.main__paraghrap_title} ${gotu.className}`}>
+              Exploring new frontiers
+            </h5>
+            <p className={styles.main__paraghrap_content}>
+              Wrecking boundaries and surpassing the frontiers of regular
+              websites. I put all my creativity to make websites look better,
+              move smoother, and feel more alive. I&apos;m always looking to
+              expand my frontiers and discover new horizons.
+            </p>
+            <article
+              className={`${styles.main__about_constellation} ${styles.display__view}`}
+            >
+              <Constellation />
+            </article>
+          </article>
+
+          <article
+            className={`${styles.main__about_constellation} ${styles.display__view_two}`}
           >
             <Constellation />
           </article>
-        </article>
 
-        <article
-          className={`${styles.main__about_constellation} ${styles.display__view_two}`}
-        >
-          <Constellation />
-        </article>
+          <article className={styles.main__about_points}>
+            <h6 className={styles.main__about_points_title}>
+              Unique web experiences crafted <br /> with creativity.
+            </h6>
 
-        <article className={styles.main__about_points}>
-          <h6 className={styles.main__about_points_title}>
-            Unique web experiences crafted <br /> with creativity.
-          </h6>
+            <ul className={styles.main__about_points_list}>
+              <li>Strong concepts</li>
+              <li>UI Design</li>
+              <li>Iterative Development</li>
+              <li>Motion for the web</li>
+              <li>SVG assets creation</li>
+            </ul>
+          </article>
 
-          <ul className={styles.main__about_points_list}>
-            <li>Strong concepts</li>
-            <li>UI Design</li>
-            <li>Iterative Development</li>
-            <li>Motion for the web</li>
-            <li>SVG assets creation</li>
-          </ul>
-        </article>
-
-        <article className={styles.main__about_planet}>
-          <Planet />
+          <article className={styles.main__about_planet}>
+            <Planet />
+          </article>
         </article>
       </section>
 
@@ -110,7 +114,7 @@ export default function About() {
           className={`${styles.main__paraghrap} ${styles.details__block_two}`}
         >
           <h5 className={`${styles.main__paraghrap_title} ${gotu.className}`}>
-            Rather provide solutions, than make you feel good
+            Creative ideas, with clear and honest solutions
           </h5>
           <p className={styles.main__paraghrap_content}>
             Exploring new ideas doesn&apos;t always mean creating new ones. I
