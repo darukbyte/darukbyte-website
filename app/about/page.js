@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./page.module.css";
 import localFont from "next/font/local";
+import MiniConstellation from "@/components/MiniConstellation";
 const gotu = localFont({ src: "../../font/Gotu-Regular.ttf" });
 
 export const metadata = {
@@ -99,6 +100,9 @@ export default function About() {
         <article
           className={`${styles.main__exploration_cta} ${gotu.className}`}
         >
+          <article className={styles.main__exploration_cta_background}>
+            <MiniConstellation />
+          </article>
           <a href="#">Let&apos;s began</a>
         </article>
       </section>
