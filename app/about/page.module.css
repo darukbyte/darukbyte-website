@@ -252,8 +252,38 @@
 .info__block_two > ul > li{
    text-align: right;
 }
+/****440px****/
+@media (min-width: 440px) {
+    .main__about_constellation{
+        right: -50%;
+    }
+}
+/****580px****/
+@media (min-width: 580px) {
+    .main__about_constellation{
+        right: -80%;
+    }
+    .main__box {
+        align-self: center;
+    }
+    .main__about, .main__details {
+        width: 500px;
+        align-self: center;
+    }
+}
+/****900px****/
+@media (min-width: 900px) {
+    .main__about_constellation {
+        transform: rotate(325deg);
+        top: 20%;
+        right: -110%;
+    }
+    .main__about_planet {
+        transform: translate(-480px, 85px);
+        z-index: 0;
+    }
+}
 /****Desktop****/
-
 @media (min-width: 1218px) {
     .display__view_two {
         display: flex;
@@ -318,7 +348,7 @@
     grid-template-rows: repeat(3, 1fr);
     margin-top: 0px;
     height: 800px;
-    max-width: 1200px;
+    width: 1200px;
     justify-self: center;
     gap: 20px;
 }
@@ -394,7 +424,7 @@
 .main__details {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    max-width: 1200px;
+    width: 1200px;
     height: 880px;
 }
 .details__block_two {

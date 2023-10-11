@@ -33,7 +33,7 @@
     color: var(--black-color);
     transition: all ease-in 600ms;
 }
-@media (min-width: 900px) {
+@media (min-width: 1218px) {
     .container__socialLinks_boxs {
         flex-direction: column;
     }

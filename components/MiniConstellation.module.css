@@ -8,13 +8,13 @@
 }
 @media screen and (prefers-reduced-motion: no-preference){
     .radiance {
-        animation: radiance cubic-bezier(0.64, 0.31, 0.83, 0.95) 4400ms infinite;
+        animation: radiance cubic-bezier(0.64, 0.31, 0.83, 0.95) 9800ms infinite;
       }
       .way {
-        animation: way linear 9000ms infinite;
+        animation: way linear 11000ms infinite;
       }
       .wayTwo {
-        animation: wayTwo linear 12800ms infinite reverse;
+        animation: wayTwo linear 16800ms infinite reverse;
       }
       .delay {
         animation-delay: 1600ms;

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./MiniConstellation.module.css";
+import styles from "@/components/MiniConstellation.module.css";
 
 export default function MiniConstellation() {
   return (
@@ -33,7 +33,7 @@ export default function MiniConstellation() {
           />
 
           <rect
-            className={`${styles.wayTwo}${styles.delay}`}
+            className={`${styles.wayTwo} ${styles.delay}`}
             x="216.363"
             y="197.707"
             width="136.036"
@@ -43,7 +43,7 @@ export default function MiniConstellation() {
           />
 
           <rect
-            className={`${styles.wayTwo}${styles.delay}`}
+            className={`${styles.wayTwo} ${styles.delay}`}
             x="25.6787"
             y="81.1907"
             width="129.156"
@@ -63,7 +63,7 @@ export default function MiniConstellation() {
           />
 
           <rect
-            className={`${styles.way}${styles.delay}`}
+            className={`${styles.way} ${styles.delay}`}
             x="253.482"
             y="146.229"
             width="80.0839"
@@ -73,7 +73,7 @@ export default function MiniConstellation() {
           />
 
           <rect
-            className={`${styles.way}${styles.delay}`}
+            className={`${styles.way} ${styles.delay}`}
             x="350.267"
             y="174.708"
             width="106.642"
@@ -129,7 +129,7 @@ export default function MiniConstellation() {
             fill="#161F38"
           />
           <ellipse
-            className={`${styles.radiance}${styles.delay}`}
+            className={`${styles.radiance} ${styles.delay}`}
             cx="526.725"
             cy="87.7251"
             rx="4"
@@ -147,7 +147,7 @@ export default function MiniConstellation() {
             fill="#161F38"
           />
           <ellipse
-            className={`${styles.radiance}${styles.delay_two}`}
+            className={`${styles.radiance}`}
             cx="252.725"
             cy="148.725"
             rx="4"
@@ -183,7 +183,7 @@ export default function MiniConstellation() {
             fill="#161F38"
           />
           <ellipse
-            className={`${styles.radiance}${styles.delay}`}
+            className={`${styles.radiance} ${styles.delay}`}
             cx="393.725"
             cy="59.7251"
             rx="4"
@@ -228,7 +228,7 @@ export default function MiniConstellation() {
             fill="#161F38"
           />
           <ellipse
-            className={`${styles.radiance}${styles.delay}`}
+            className={`${styles.radiance} ${styles.delay}`}
             cx="153.725"
             cy="65.7249"
             rx="4"
@@ -291,7 +291,7 @@ export default function MiniConstellation() {
             fill="#161F38"
           />
           <ellipse
-            className={`${styles.radiance}${styles.delay}`}
+            className={`${styles.radiance} ${styles.delay_two}`}
             cx="170.725"
             cy="244.725"
             rx="4"

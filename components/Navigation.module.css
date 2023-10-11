@@ -50,7 +50,7 @@
 .header__nav_bottom_container_links:hover {
     color: var(--principal-color);
 }
-@media (min-width: 900px) {
+@media (min-width: 1218px) {
     .header nav  {
         padding: 20px 40px;
     }
