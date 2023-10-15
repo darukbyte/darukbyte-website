@@ -427,6 +427,10 @@
     width: 1200px;
     height: 880px;
 }
+.main__details_head {
+    font-size: 5.2rem;
+    line-height: 7rem;
+}
 .details__block_two {
     align-self: center;
 }
@@ -456,7 +460,7 @@
 }
 .info__block_two {
     grid-row:3;
-    grid-column: 3;
+    grid-column: 2;
     align-self: end;
     height: fit-content;
 }

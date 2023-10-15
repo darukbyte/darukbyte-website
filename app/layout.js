@@ -9,7 +9,8 @@ const urbanist = Urbanist({
 });
 
 export const metadata = {
-  title: "Freelance Frontend Developer crafting innovative digital experiences",
+  title:
+    "Junior Carrillo - Freelance Frontend Developer crafting innovative digital experiences",
   description:
     "Exploring beyond the boundaries of creativity and code, one web experience at a time. Based in Venezuela.",
   keywords: [
@@ -30,7 +31,7 @@ export const metadata = {
     "Freelance",
     "Personal site",
   ],
-  themeColor: "#408950",
+  themeColor: "#F3F2F2",
   robots: {
     index: false,
     follow: true,

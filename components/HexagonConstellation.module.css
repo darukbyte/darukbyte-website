@@ -1,0 +1,49 @@
+.size {
+    width: 320px;
+    height: 320px;
+  }
+  .mask {
+    mask-type:alpha;
+  }
+  
+  @media screen and (prefers-reduced-motion: no-preference){
+    
+    .way {
+      stroke-dasharray: 160;
+      stroke-dashoffset: 0;
+      animation: way 12s linear infinite;
+      opacity: 0;
+    }
+  .radiance {
+      animation: radiance cubic-bezier(0.64, 0.31, 0.83, 0.95) 4400ms infinite;
+    }
+    .delay {
+      animation-delay: 1600ms;
+    }
+    .delay_two {
+      animation-delay: 2000ms;
+    }
+    
+    @keyframes way {
+      from {
+        stroke-dashoffset: 160;
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      to {
+        stroke-dashoffset: 0;
+        opacity: 0;
+      }
+    }
+    
+    @keyframes radiance { 
+    to {
+      r: 28;
+      opacity: 0
+    }
+  }
+    
+  
+  }
