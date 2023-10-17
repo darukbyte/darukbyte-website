@@ -30,8 +30,10 @@ export const metadata = {
     "Programming",
     "Freelance",
     "Personal site",
+    "Junior",
+    "Carrillo",
   ],
-  themeColor: "#F3F2F2",
+  themeColor: "#408950",
   robots: {
     index: false,
     follow: true,
