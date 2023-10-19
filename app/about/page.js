@@ -8,7 +8,7 @@ import MiniConstellation from "@/components/MiniConstellation";
 const gotu = localFont({ src: "../../font/Gotu-Regular.ttf" });
 
 export const metadata = {
-  title: "Who exactly am I? - Junior Carrillo | Darukbyte",
+  title: "Who exactly am I? - Junior Carrillo a.k.a Daruk",
 };
 
 export default function About() {

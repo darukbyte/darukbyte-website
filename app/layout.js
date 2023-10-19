@@ -10,7 +10,7 @@ const urbanist = Urbanist({
 
 export const metadata = {
   title:
-    "Junior Carrillo - Freelance Frontend Developer crafting innovative digital experiences",
+    "Junior Carrillo - Frontend Developer crafting innovative digital experiences",
   description:
     "Exploring beyond the boundaries of creativity and code, one web experience at a time. Based in Venezuela.",
   keywords: [

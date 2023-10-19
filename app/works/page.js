@@ -6,7 +6,7 @@ import Image from "next/image";
 const gotu = localFont({ src: "../../font/Gotu-Regular.ttf" });
 
 export const metadata = {
-  title: "Works crafted by me - Junior Carrillo | Darukbyte",
+  title: "Works crafted by me - Junior Carrillo a.k.a Daruk",
 };
 
 export default function Works() {
