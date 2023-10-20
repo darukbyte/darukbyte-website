@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import HexagonConstellation from "@/components/HexagonConstellation";
 import localFont from "next/font/local";
 import Image from "next/image";
+import MiniProject from "@/components/MiniProject";
 const gotu = localFont({ src: "../../font/Gotu-Regular.ttf" });
 
 export const metadata = {
@@ -12,15 +13,7 @@ export const metadata = {
 export default function Works() {
   return (
     <main className={styles.project_box}>
-      <a className={`${styles.work_info} ${styles.work_info_fixed}`} href="#">
-        Availible for work: <span>3 Days per week</span>
-      </a>
-
       <section className={styles.projects}>
-        <a className={styles.work_info} href="#">
-          Availible for work: <span>3 Days per week</span>
-        </a>
-
         <article
           className={`${styles.projects__mobile_hexagon} ${styles.view}`}
         >
@@ -51,15 +44,9 @@ export default function Works() {
         </article>
 
         <p className={styles.projects__text}>
-          I&apos;m frequently crafting insteresting stuffs on{" "}
-          <a href="https://codepen.io/darukbyte" target="_blank">
-            codepen
-          </a>{" "}
-          and{" "}
-          <a href="https://dribbble.com/darukbyte" target="_blank">
-            dribbble.
-          </a>{" "}
-          Explore a variaty of inspiring projects crafted by me.
+          I&apos;m frequently crafting new stuffs, from aesthetics design to
+          awesome code projects of every sizes. Take a look and explore a
+          variaty of inspiring projects crafted by me.
         </p>
 
         <section className={styles.projects__showcase}>
@@ -118,16 +105,9 @@ export default function Works() {
         </section>
 
         <section className={styles.mini_projects}>
-          <p className={styles.mini_projects_text}>
-            Codepen, Dribbble and Webflow latest creation
-          </p>
-
-          <section className={styles.mini_projects__showcase}>
-            <article>
-              <span></span>
-              <h5></h5>
-              <p></p>
-            </article>
+          <p className={styles.mini_projects_text}>Latest creation</p>
+          <section className={styles.mini_projects_show}>
+            <MiniProject />
           </section>
         </section>
       </section>
@@ -135,6 +115,12 @@ export default function Works() {
       <section className={`${styles.half__image} ${styles.view_no}`}>
         <article>
           <HexagonConstellation />
+          <Image
+            src="https://imgur.com/67RU8DG.png"
+            width={240}
+            height={240}
+            alt="aestheticify illustration"
+          />
         </article>
       </section>
     </main>
