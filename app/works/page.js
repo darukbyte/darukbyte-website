@@ -15,9 +15,8 @@ export default function Works() {
     <main className={styles.project_box}>
       <section className={styles.projects}>
         <p className={styles.projects__text}>
-          I&apos;m frequently crafting new stuffs, from aesthetics design to
-          awesome code projects of every sizes. Take a look and explore a
-          variaty of inspiring projects crafted by me.
+          I frequently craft delightful designs and clean code projects of every
+          sizes. Take a look and explore a variaty of those created by me.
         </p>
 
         <section className={styles.projects__showcase}>
@@ -42,12 +41,6 @@ export default function Works() {
             <article className={styles.projects__showcase__box_icons}>
               <Image
                 src="/assets/design.svg"
-                width={24}
-                height={24}
-                alt="design"
-              />
-              <Image
-                src="/assets/figma.svg"
                 width={24}
                 height={24}
                 alt="design"
@@ -85,11 +78,11 @@ export default function Works() {
 
       <section className={`${styles.half__image} ${styles.view_no}`}>
         <article>
-          <HexagonConstellation />
           <Image
+            className={styles.half__image_img}
             src="https://imgur.com/67RU8DG.png"
-            width={240}
-            height={240}
+            width={400}
+            height={540}
             alt="aestheticify illustration"
           />
         </article>

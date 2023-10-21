@@ -11,6 +11,7 @@ const data = [
   ["https://twitter.com/darukbyte", "twitter.svg", "Twitter"],
   ["https://codepen.io/darukbyte", "codepen.svg", "Codepen"],
   ["https://dribbble.com/darukbyte", "dribbble.svg", "Dribbble"],
+  ["https://www.linkedin.com/in/darukbyte/", "linkedin.svg", "Linkedin"],
 ];
 
 export default function SocialMedia() {

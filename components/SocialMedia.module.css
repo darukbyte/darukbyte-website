@@ -43,8 +43,8 @@
         align-items: center;
     }
     .container__socialLink_image {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
     }
     .container__socialLink_text{
         display: grid;

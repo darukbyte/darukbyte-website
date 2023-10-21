@@ -1,6 +1,5 @@
 .mini__project_box {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 20px;
 }
 .mini__project {
@@ -29,4 +28,15 @@
 }
 .mini__project_title:hover {
     color: var(--principal-color);
+}
+@media (min-width: 900px) {
+    .mini__project_box {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mini__project_image {
+        width: 230px;
+        height: 140px;
+    }
 }
