@@ -14,35 +14,6 @@ export default function Works() {
   return (
     <main className={styles.project_box}>
       <section className={styles.projects}>
-        <article
-          className={`${styles.projects__mobile_hexagon} ${styles.view}`}
-        >
-          <svg
-            viewBox="0 0 180 240"
-            fill="none"
-            className={styles.logo}
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M180 60L90 60L0 60L9.9999 0L30 0L40 10L40.2216 31.1768L60.2064 31.1768L60 20L70 10L80 0H90.04L100 0L110 10L120 20L120.161 31.1768L140.146 31.1768L140 10L150 0L170 0L180 60Z"
-              fill="#408950"
-            />
-
-            <path
-              d="M0 70H80V200H40L0 210L10 190L40 180V110L0 90V70Z"
-              fill="#408950"
-            />
-
-            <path
-              d="M180 70H100V200H140L180 210L170 190L140 180V110L180 90V70Z"
-              fill="#408950"
-            />
-
-            <path d="M0 220L40 210H90H140L180 220V240H0V220Z" fill="#408950" />
-          </svg>
-          <HexagonConstellation />
-        </article>
-
         <p className={styles.projects__text}>
           I&apos;m frequently crafting new stuffs, from aesthetics design to
           awesome code projects of every sizes. Take a look and explore a
