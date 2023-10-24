@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.box}>
         <article className={styles.intro}>
           <p className={styles.intro__first}>
-            Explore the journey of a <br /> Developer and Designer
+            Explore the journey of a <br /> Frontend Developer
           </p>
           <article className={`${styles.intro__first_box} ${gotu.className}`}>
             <h1 className={styles.intro__first_box_h}>Wrecking</h1>

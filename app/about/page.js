@@ -74,7 +74,7 @@ export default function About() {
 
           <article className={styles.main__about_points}>
             <h6 className={styles.main__about_points_title}>
-              Unique web experiences crafted <br /> with creativity.
+              Crafting unique web experiences <br /> with creativity and code.
             </h6>
 
             <ul className={styles.main__about_points_list}>
@@ -124,7 +124,7 @@ export default function About() {
             Exploring new ideas doesn&apos;t always mean creating new ones. I
             monitor trends and keep a eye on the best things that are make and
             develop in my field of expertise. This way, I can provide creative
-            solutions and offer clear and honest feedback.
+            solutions and unique web experiences.
           </p>
         </article>
 
@@ -142,9 +142,9 @@ export default function About() {
           </h5>
           <p className={styles.main__paraghrap_content}>
             I&apos;m a self-taught adventure with a deep passion for learning. I
-            spent every day acquiring new knowledge, this help me to break
-            boundaries and discover new ways to explore the vast universe beyond
-            the horizon.
+            spent every day acquiring new knowledge that help me to break
+            boundaries and discover new ways to explore this vast universe
+            beyond the horizon.
           </p>
         </article>
 

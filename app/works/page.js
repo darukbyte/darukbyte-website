@@ -15,8 +15,9 @@ export default function Works() {
     <main className={styles.project_box}>
       <section className={styles.projects}>
         <p className={styles.projects__text}>
-          I frequently craft delightful designs and clean code projects of every
-          sizes. Take a look and explore a variaty of those created by me.
+          I frequently develop new projects and craft delightful designs of
+          every sizes. Take a look and explore a variaty of projects created by
+          me.
         </p>
 
         <section className={styles.projects__showcase}>
